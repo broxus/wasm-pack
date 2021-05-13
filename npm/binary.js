@@ -22,7 +22,7 @@ const getPlatform = () => {
 const getBinary = () => {
   const platform = getPlatform();
   const version = require("./package.json").version;
-  const author = "rustwasm";
+  const author = "broxus";
   const name = "wasm-pack";
   const url = `https://github.com/${author}/${name}/releases/download/v${version}/${name}-v${version}-${platform}.tar.gz`;
   return new Binary(url, { name });

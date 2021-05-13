@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.2
+
+- ### Fixed
+
+  - **Bump binaryen to version_101
+
 ## ☁️  0.9.1
 
 - ### 🤕 Fixes
